@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // let product = {
+      //   company: "Prashant",
+      //   price: 123,
+      //   "item-name": "T-shirt",
+      // };
+      // console.log(product);
+      // delete product.company;
+      // console.log(product);
+
+      // let product = {
+      //   company: "Prashant",
+      //   price: 123,
+      //   "item-name": "T-shirt",
+      //   displayPrice: function () {
+      //     console.log(`your product price is ${this.price}`);
+      //   },
+      // };
+      // console.log(product);
+
+      // objects works on refrence basis
+      /*it means that if you assign an new variable to the existing object this will change only reference not the actual data. 
+      In othe words, changing key or values will affect all the copies of the object. 
+
+      Apart from these, if you copy the variables then it will copy all the contenct in it and it will not affect the copies.
+      for eg
+      */
+
+      let a = 6;
+      let b = a;
+
+      console.log(a, b);
+      a = 9;
+      console.log(a, b);
+      //here only value of a is changed, it will not affect b
+    </script>
+  </body>
+</html>

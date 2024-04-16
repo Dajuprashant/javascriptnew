@@ -1,0 +1,51 @@
+.header{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 50px;
+  background-color: black;
+  color: white;
+  padding: 7px;
+}
+.searchbar{
+  padding: 12px;
+  width: 400px;
+}
+.mandolly-img{
+  padding: 7px;
+}
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.sec-head{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+}
+.total{
+  border: 1px solid black;
+  height: 50px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.layer{
+display: grid;
+grid-template-columns: 1fr 5fr;
+margin-right: 20px;
+margin-left: 20px;
+column-gap: 15px;
+
+}
+.leftbar{
+  margin-top: 30px;
+  background-color: rgb(198, 195, 195);
+  height: 100vh;
+}
+.leftone{
+  margin: 5px;
+  margin-top: 3px;
+}
+p{
+  color: white;
+  font-size: 17px;
+}
